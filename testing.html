@@ -41,7 +41,7 @@
 							<span class="help-block">If not applicable, leave blank.</span>
 						</div>
 						<div class="form-group">
-							<label for="gas">Monthly natural gas bill</label>
+							<label for="gas">Monthly  gas bill</label>
 							<div class="input-group">
 								<div class="input-group-addon">$</div>
 								<input class="form-control" id="gas" type="number" min="0" step="1.00">
@@ -60,12 +60,18 @@
                         <h3 class="form-section-label" id="travel-label"><center><i class="fa fa-cutlery" aria-hidden="true"></i> FOOD EXPENSES</center></h3>
 						<div class="form-group">
 							<label for="eatingout">Monthly expenses on eating out</label>
-							<input class="form-control" id="eatingout" type="number" min="0" step="1">
+                            <div class="input-group">
+								<div class="input-group-addon">$</div>
+								<input class="form-control" id="eatingout" type="number" min="0" step="1.00">
+							</div>
 							<span class="help-block">If not applicable, leave blank.</span>
 						</div>
 						<div class="form-group">
 							<label for="groceries">Monthly expenses on grocery shopping</label>
-							<input class="form-control" id="groceries" type="number" min="0" step="1">
+							<div class="input-group">
+								<div class="input-group-addon">$</div>
+								<input class="form-control" id="groceries" type="number" min="0" step="1.00">
+							</div>
 							<span class="help-block">If not applicable, leave blank.</span>
 						</div>
 						<div class="form-group">
@@ -202,7 +208,7 @@
             </div>
           </div>
           <br/>
-					<button id="recalculate-btn" type="button" class="btn btn-success btn-lg btn-block">Recalculate</button>
+					<button id="recalculate-btn" type="button" class="btn btn-success btn-lg btn-block">Recalculate Score</button>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
