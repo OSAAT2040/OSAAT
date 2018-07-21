@@ -1,6 +1,7 @@
 #announcement-panel {
 	padding-top: 80px;
 	padding-bottom: 80px;
+    width: 100%;
 }
 
 #announcement-header, #announcement-subheader {
