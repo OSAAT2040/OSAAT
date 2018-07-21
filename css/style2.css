@@ -104,3 +104,18 @@ button:hover{
     color:white;
 }
 
+.bg-success {
+    background-color: lawngreen;
+}
+
+.bg-info {
+    background-color: yellow;
+}
+
+.bg-warning {
+    background-color: darkorange;
+}
+
+.bg-danger {
+    background-color: red;
+}
